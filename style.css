@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home{
+    width: 100%;
+    height: 85vh;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 10px solid grey;
+}
+
+.overlay{
+    width: 100%;
+    height: 85vh;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 154px;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-left img{
+    height: 60px;
+}
+
+.nav-right button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.nav-right button:hover{
+    background-color: rgb(185, 4, 4);
+}
+
+.nav-right .dropdown{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: white 1px solid;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.home-content{
+    height: 61vh;
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.home-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.home-content h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.home-content  h2{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+
+
+.home-content  .email input{
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 16px;
+    width: 328px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: black;
+    transition: 0.5s;
+    background: transparent;
+    color: azure;
+    font-weight: 200;
+}
+
+.home-content button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 16px 29px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.home-content button:hover{
+    background-color: rgb(185, 4, 4);
+}
+
+.home2{
+    width: 100%;    
+    height: 80vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 7px solid rgb(47, 46, 46);
+    align-items: center;
+}
+
+.home2 .home2-text{
+    width: 43%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+/* padding-left: 41px; */
+}
+
+.home2 .home2-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 124px;
+}
+
+.home2 .home2-text h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.home2 .home2-video{
+    width: 24%;
+    height: 60vh;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.home2 .home2-video img{
+    height: 57vh;
+    width: 741px;
+    position: relative;
+    left: 108px;
+    z-index: 1;
+}
+
+.home2 .home2-video video{
+    position: relative;
+    right: 448px;
+    top: -8px;
+
+}
+
+.home3{
+    border-bottom: 7px solid rgb(47, 46, 46);
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 0 178px;
+    
+}
+
+/* .home3 .home3-left{
+    width: 40%;
+}
+
+.home3 .home3-right{
+    width: 60%;
+} */
+
+.download-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+    border: 2px solid grey;
+    background-color:black;
+    height: 100px;
+    padding: 10px;
+    width: 372px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 137px;
+    left: 127px;
+
+}
+
+.download-div img{
+    height: 80px;
+}
+
+.download-div .download-icon{
+    height: 50px;
+}
+
+.download-div .download-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+.download-div .download-text h1{
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.download-div .download-text h2{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0071eb;
+}
+
+.home3 .home2-text{
+    width: 74%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+/* padding-left: 41px; */
+}
+
+.home3 .home2-text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.home3 .home2-text h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.home4{
+    padding: 100px 0px 100px 0px;
+    border-bottom: 7px solid rgb(47, 46, 46);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home4-text{
+    color: aliceblue;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home4 .home4-text h1{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 96px;
+}
+
+.home4 .home4-text h2{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+
+}
+
+.home5{
+    border-bottom: 7px solid rgb(47, 46, 46);
+    height: 122vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4.5rem 0;
+}
+
+.home5 h2{
+    color: aliceblue;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.home5 .faqbox{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(47, 46, 46);
+    width: 74%;
+    margin-top: 10px;
+    padding: 34px;
+    transition: 0.5s;
+}
+
+.home5 .faqbox:hover{
+    background-color: #333;
+}
+.home5 .faqbox span{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.heading22{
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.home5 .email input{
+    padding: 17px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    outline: none;
+    font-size: 16px;
+    width: 328px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: black;
+    transition: 0.5s;
+    background: transparent;
+    color: azure;
+    font-weight: 200;
+}
+
+.home5 button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 16px 29px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.home5 button:hover{
+    background-color: rgb(185, 4, 4);
+}
+
+footer {
+    color: white;
+    width: 100%;
+    margin: auto;
+    padding: 60px;
+    background-color: black;
+}
+
+footer .questions {
+    padding: 34px 0;
+    opacity: 0.5;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+
+
